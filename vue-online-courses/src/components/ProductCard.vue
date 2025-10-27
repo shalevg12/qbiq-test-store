@@ -62,5 +62,4 @@ const onImgError = (e: Event) => {
 </script>
 
 <style scoped>
-/* אם אין לך את תוסף line-clamp של Tailwind, אפשר להסיר את המחלקות line-clamp-* */
 </style>

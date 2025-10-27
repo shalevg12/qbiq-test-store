@@ -14,7 +14,6 @@ const routes: RouteRecordRaw[] = [
     path: '/product/:id',
     name: 'ProductDetail',
     component: ProductDetailPage,
-    // Use props to pass route param as component prop (ensure id is number if possible)
     props: route => {
       const id = Number(route.params.id);
       return { id: isNaN(id) ? route.params.id : id };
@@ -26,7 +25,7 @@ const routes: RouteRecordRaw[] = [
     component: () => import('../views/About.vue'),
   },
   {
-    path: '/:pathMatch(.*)*',   // catch-all for undefined routes
+    path: '/:pathMatch(.*)*',
     name: 'NotFound',
     component: NotFoundPage
   }

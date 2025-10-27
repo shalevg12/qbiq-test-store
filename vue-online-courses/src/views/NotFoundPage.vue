@@ -7,8 +7,6 @@
 </template>
 
 <script setup lang="ts">
-/* This simple page is shown when an undefined route is accessed. */
 </script>
-
 <style scoped>
 </style>

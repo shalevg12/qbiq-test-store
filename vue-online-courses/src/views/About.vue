@@ -1,5 +1,4 @@
 <template>
-  <!-- יישור למעלה + גובה מסך פחות ה-Header (64px = 4rem) -->
   <div
     class="min-h-[calc(100svh-4rem)] flex items-start justify-center bg-gray-50 px-6 py-12 pt-10"
   >
@@ -40,6 +39,5 @@ const openWebsite = () => {
   window.open("https://www.qbiq.ai", "_blank");
 };
 </script>
-
 <style scoped>
 </style>
