@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Vue 3 Mastery",
+    "category": "Web Development",
+    "price": 99.0,
+    "thumbnail": "/images/Vue_Mystery.png",
+    "image": "/images/Vue_Mystery.png",
+    "shortDescription": "Learn Vue 3 from scratch with hands-on projects.",
+    "longDescription": "This course covers the fundamentals of Vue 3, including composition API, reactive state management, and component-based architecture. Build real-world projects and become proficient in developing modern web interfaces with Vue.",
+    "reviews": [
+      { "id": 1, "author": "Alice", "rating": 5, "comment": "Excellent course, very thorough and clear." },
+      { "id": 2, "author": "Bob", "rating": 4, "comment": "Great content, but could use more examples." }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Advanced TypeScript",
+    "category": "Programming",
+    "price": 79.0,
+    "thumbnail": "/images/Advanced_TS.jpg",
+    "image": "/images/Advanced_TS.jpg",
+    "shortDescription": "Deep dive into TypeScript advanced features.",
+    "longDescription": "Take your TypeScript skills to the next level by exploring advanced language features, design patterns, and real-world application development techniques. This course is ideal for developers who are comfortable with TypeScript basics and want to leverage its full power in large-scale projects.",
+    "reviews": [
+      { "id": 1, "author": "Charlie", "rating": 5, "comment": "A must-have for serious TypeScript developers." },
+      { "id": 2, "author": "Dana", "rating": 4, "comment": "Very informative, though some sections were a bit fast." }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "UI Design for Developers",
+    "category": "Design",
+    "price": 59.0,
+    "thumbnail": "/images/UI_Design.jpg",
+    "image": "/images/UI_Design.jpg",
+    "shortDescription": "Learn the fundamentals of user interface design.",
+    "longDescription": "Designed for developers without a design background, this course teaches the principles of effective UI/UX design. Covering typography, color theory, layout, and interactive prototyping, you'll learn to create visually appealing and user-friendly interfaces for your applications.",
+    "reviews": [
+      { "id": 1, "author": "Eve", "rating": 4, "comment": "Good overview of UI basics with practical tips." }
+    ]
+  }
+]
