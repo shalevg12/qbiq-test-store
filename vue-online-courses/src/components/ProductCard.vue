@@ -26,13 +26,13 @@
       </template>
 
       <template #subtitle>
-        <span class="text-base font-semibold text-emerald-700">$ {{ product.price }}</span>
+        <div class="text-sm text-slate-600 mb-4 line-clamp-2">
+          {{ product.shortDescription }}
+        </div>
       </template>
-
-      <div class="text-sm text-slate-600 mb-4 line-clamp-2">
-        {{ product.shortDescription }}
-      </div>
-
+      
+      <template #content> <!-- content & footer (to me it's looks better when they together). -->
+      <span class="text-base font-semibold text-emerald-700">$ {{ product.price }}</span>
       <div class="pt-1">
         <Button
           label="View Details"
@@ -41,6 +41,8 @@
           @click.stop="openDetails"
         />
       </div>
+  </template>
+
     </Card>
   </div>
 </template>

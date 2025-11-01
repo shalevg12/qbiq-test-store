@@ -12,10 +12,10 @@ import Card from 'primevue/card';
 import Toast from 'primevue/toast';
 
 // Import PrimeVue and Tailwind CSS styles
+import './assets/tailwind.css';                            // TailwindCSS styles (compiled via PostCSS)
 import 'primevue/resources/themes/saga-blue/theme.css';    // PrimeVue theme
 import 'primevue/resources/primevue.min.css';              // Core PrimeVue styles
 import 'primeicons/primeicons.css';                        // PrimeIcons for icons
-import './assets/tailwind.css';                            // TailwindCSS styles (compiled via PostCSS)
 
 const app = createApp(App);
 
